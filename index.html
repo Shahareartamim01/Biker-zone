@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@
     <!-- Header section -->
      <header class="md:max-w-7xl mx-auto">
         <nav class="">
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 p-0">
                 <div class="flex-1">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -48,7 +48,7 @@
                     <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">Biker Zone</a>
+                  <a class=" font-bold text-xl">Biker Zone</a>
                 </div>
                 <div class="navbar-center mr-6 hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -63,10 +63,49 @@
                 </div>
               </div>
         </nav>
+        <!-- Slider/carousel -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="text-black font-thin text-2xl">❮</a>
+                <a href="#slide2" class="text-[#E76F51] font-thin text-2xl">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="text-black font-thin text-2xl">❮</a>
+                <a href="#slide3" class="text-[#E76F51] font-thin text-2xl">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="text-black font-thin text-2xl">❮</a>
+                <a href="#slide4" class="text-[#E76F51] font-thin text-2xl">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="text-black font-thin text-2xl">❮</a>
+                <a href="#slide1" class="text-[#E76F51] font-thin text-2xl">❯</a>
+              </div>
+            </div>
+          </div>
      </header>
 
      <!-- Main section -->
-      <main>
+      <main class="md:max-w-7xl mx-auto">
 
       </main>
 
